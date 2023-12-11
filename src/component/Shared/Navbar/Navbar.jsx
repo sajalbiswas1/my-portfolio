@@ -2,17 +2,21 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div>
+            <div className="navbar bg-base-100 max-w-7xl mx-auto">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">daisyUI</a>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <div className="hidden md:block">
+                    <div className="hidden lg:block">
                     <div className="flex">
-                    <NavLink><li><a>Link 1</a></li></NavLink>
-                    <NavLink><li><>Link 2</></li></NavLink>
-                    <NavLink><li><>Link 3</></li></NavLink>
+                    <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Home</NavLink>
+                    <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">About Me</NavLink>
+                    <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Service</NavLink>
+                    <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Blog</NavLink>
+                    <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Skill</NavLink>
+                    <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Contact</NavLink>
                     </div>
                     </div>
                     <li className="lg:hidden md:block">
@@ -26,6 +30,9 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
+            
+        </div>
+        <hr />
         </div>
     );
 };

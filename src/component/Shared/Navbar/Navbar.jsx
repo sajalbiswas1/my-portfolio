@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 max-w-7xl mx-auto">
+            <div className="navbar max-w-7xl mx-auto">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">daisyUI</a>
             </div>

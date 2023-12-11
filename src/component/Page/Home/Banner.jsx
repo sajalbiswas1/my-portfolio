@@ -2,11 +2,11 @@
 const Banner = () => {
     return (
         <div className="max-w-7xl mx-auto">
-            <div className="lg:grid grid-cols-3 gap-3 mt-10 mx-5">
+            <div className="lg:grid grid-cols-3 gap-3 mt-10 mx-5 items-center">
             <div className="col-span-2">
                 <p>INTRODUCTION</p>
-                <h3>I am Ron a Creative</h3>
-                <h3>Developer & UI Expert</h3>
+                <h3 className="text-5xl font-bold">I am Ron a Creative</h3>
+                <h3 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan via-purple-500 to-pink-500"  >Developer & UI Expert</h3>
                 <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
             </div>
             <div className="col-span-1">

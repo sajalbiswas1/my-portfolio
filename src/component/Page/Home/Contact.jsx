@@ -3,9 +3,9 @@ const Contact = () => {
     return (
         <div className="max-w-7xl mx-auto mt-10">
             <hr />
-            <p className="border text-center border-black max-w-min m-auto px-5  py-1 text-lg rounded-sm font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-red-500 to-pink-500">Contact</p>
+            <p className="border text-center border-black max-w-min m-auto px-5 mt-10  py-1 text-lg rounded-sm font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-red-500 to-pink-500">Contact</p>
         <h2 className="text-center text-5xl font-bold mt-4 mb-4">Get in touch</h2>
-        <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div>
         <form className="card-body border border-black md:max-w-3xl md:m-auto lg:max-w-5xl mt-10 rounded-xl m-3"  action="https://formspree.io/f/mqkvrnol" method="POST">
         <div className="md:grid grid-cols-2 gap-5">

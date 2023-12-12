@@ -2,6 +2,7 @@ import Footer from "../../Shared/Footer/Footer";
 import About from "./About";
 import Banner from "./Banner";
 import Contact from "./Contact";
+import Projects from "./Projects";
 // import NewsLatter from "./NewsLatter";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <div >
             <Banner></Banner>
             <About></About>
+            <Projects></Projects>
             <Contact></Contact>
             {/* <NewsLatter></NewsLatter> */}
             <Footer></Footer>

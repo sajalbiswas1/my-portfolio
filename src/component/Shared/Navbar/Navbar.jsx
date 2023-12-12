@@ -13,8 +13,8 @@ const Navbar = () => {
                     <div className="flex">
                     <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Home</NavLink>
                     <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">About Me</NavLink>
-                    <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Service</NavLink>
-                    <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Blog</NavLink>
+                    <NavLink  className="hover:bg-slate-200 px-3 py-1 rounded-lg">Service</NavLink>
+                    <NavLink to={'project'} className="hover:bg-slate-200 px-3 py-1 rounded-lg">Projects</NavLink>
                     <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Skill</NavLink>
                     <NavLink className="hover:bg-slate-200 px-3 py-1 rounded-lg">Contact</NavLink>
                     </div>
